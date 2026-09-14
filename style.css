@@ -1,0 +1,54 @@
+/* ============================
+   Servicios Hogar - Estilos
+   ============================ */
+
+body {
+    background-color: #f5f5f5;
+}
+
+/* PORTADA */
+.hero {
+    padding: 55px 20px;
+    background: linear-gradient(135deg, #212529, #495057);
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 900px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+/* TARJETAS DE SERVICIOS */
+.service-card {
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* FORMULARIO */
+.form-control:focus,
+.form-select:focus {
+    border-color: #495057;
+    box-shadow: 0 0 0 0.2rem rgba(73, 80, 87, 0.25);
+}
+
+/* PIE DE PAGINA */
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 25px;
+    margin-top: 50px;
+}
